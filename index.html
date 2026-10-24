@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | Mikael Bektas</title>
+    <meta
+      name="description"
+      content="Portfolio de Mikael Bektas, developpeur web full-stack."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;600;800&family=Space+Grotesk:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="starfield" aria-hidden="true">
+      <canvas id="space-canvas"></canvas>
+    </div>
+    <div class="noise"></div>
+
+    <header class="site-header">
+      <a href="#top" class="logo">MB</a>
+      <nav class="site-nav" aria-label="Navigation principale">
+        <a href="#about">A propos</a>
+        <a href="#projects">Projets</a>
+        <a href="#skills">Competences</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="cta-link" href="#contact">Discutons</a>
+    </header>
+
+    <main id="top">
+      <section class="hero section reveal">
+        <p class="kicker">Disponible pour missions freelance</p>
+        <h1>
+          Mikael Bektas,
+          <span>developpeur full-stack</span>.
+        </h1>
+        <p class="hero-text">
+          Je construis des experiences web rapides, robustes et elegantes,
+          de l interface utilisateur a la logique metier.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#projects">Voir mes projets</a>
+          <a class="btn btn-ghost" href="#contact">Me contacter</a>
+        </div>
+      </section>
+
+      <section id="about" class="about section reveal">
+        <div>
+          <p class="section-tag">A propos</p>
+          <h2>Precision, creativite, et impact.</h2>
+        </div>
+        <p>
+          Etudiant en ecole informatique, premiere annee, je developpe des
+          projets web pour renforcer mes competences en front-end et back-end.
+          Mon approche melange design system, accessibilite et optimisation des
+          performances pour livrer des experiences qui comptent.
+        </p>
+      </section>
+
+      <section id="projects" class="projects section">
+        <div class="section-head reveal">
+          <p class="section-tag">Projets</p>
+          <h2>Plusieurs projets realises</h2>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card reveal">
+            <p class="project-type">Jeu 2D</p>
+            <h3>Survival 2D</h3>
+            <p>
+              Jeu de survie 2D avec gestion de ressources, ennemi mobile et
+              progression par vagues.
+            </p>
+            <ul>
+              <li>Deplacement top-down</li>
+              <li>Systeme de vie et score</li>
+            </ul>
+          </article>
+
+          <article class="project-card reveal">
+            <p class="project-type">Jeu de strategie</p>
+            <h3>Puissance 4</h3>
+            <p>
+              Implementation complete du jeu Puissance 4 avec verification des
+              coups et detection automatique du gagnant.
+            </p>
+            <ul>
+              <li>Logique de victoire</li>
+              <li>Interface interactive</li>
+            </ul>
+          </article>
+
+          <article class="project-card reveal">
+            <p class="project-type">Jeu de plateau</p>
+            <h3>Jeu de Dames</h3>
+            <p>
+              Jeu de dames numerique avec mouvements autorises, prises et fin
+              de partie gerees en JavaScript.
+            </p>
+            <ul>
+              <li>Regles du jeu appliquees</li>
+              <li>Plateau dynamique</li>
+            </ul>
+          </article>
+
+          <article class="project-card reveal">
+            <p class="project-type">Application musique</p>
+            <h3>Spotify Clone</h3>
+            <p>
+              Interface inspirée de Spotify avec lecture simulée, playlists et
+              navigation fluide entre les sections.
+            </p>
+            <ul>
+              <li>UI moderne et responsive</li>
+              <li>Gestion de playlists</li>
+            </ul>
+          </article>
+
+          <article class="project-card reveal">
+            <p class="project-type">Back-end</p>
+            <h3>API pour jeux</h3>
+            <p>
+              API REST pour stocker scores, parties et profils joueurs avec une
+              structure propre et reutilisable.
+            </p>
+            <ul>
+              <li>Node.js et PostgreSQL</li>
+              <li>Endpoints REST clairs</li>
+            </ul>
+          </article>
+
+          <article class="project-card reveal">
+            <p class="project-type">Projet scolaire</p>
+            <h3>Dashboard de suivi</h3>
+            <p>
+              Tableau de bord realise en groupe pour suivre des statistiques de
+              projet et organiser les taches de l equipe.
+            </p>
+            <ul>
+              <li>Travail en equipe Git</li>
+              <li>Organisation et methodologie agile</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section id="skills" class="skills section reveal">
+        <div class="section-head">
+          <p class="section-tag">Competences</p>
+          <h2>Stack et methodes</h2>
+        </div>
+        <div class="pill-wrap" aria-label="Liste des competences">
+          <span>Java</span>
+          <span>JavaScript</span>
+          <span>Node.js</span>
+          <span>TypeScript</span>
+          <span>React</span>
+          <span>Next.js</span>
+          <span>JDK</span>
+          <span>Go</span>
+          <span>PostgreSQL</span>
+          <span>Figma</span>
+          <span>CI/CD</span>
+          <span>Accessibilite</span>
+          <span>SEO technique</span>
+        </div>
+      </section>
+
+      <section id="contact" class="contact section reveal">
+        <p class="section-tag">Contact</p>
+        <h2>Parlons de ton prochain projet</h2>
+        <p>
+          Envoie un message et je reviens vers toi rapidement avec une approche
+          claire et des prochaines etapes concretes.
+        </p>
+        <a class="btn btn-primary" href="mailto:mikael.bektas1453@gmail.com"
+          >mikael.bektas1453@gmail.com</a
+        >
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>(c) 2026 Mikael Bektas. Tous droits reserves.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
